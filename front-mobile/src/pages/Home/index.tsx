@@ -60,7 +60,7 @@ const styles = StyleSheet.create(
           fontFamily: "Play_700Bold",
         },
         subTitle: {
-          color: '#ED7947',
+          color: '#fc4a9e',
           fontSize: 21,
           marginTop: 15,
           fontFamily: "Play_400Regular",
@@ -75,7 +75,7 @@ const styles = StyleSheet.create(
           borderRadius: 10
         },
         buttonIcon: {
-          backgroundColor: '#ED7947',
+          backgroundColor: '#fc4a9e',
           justifyContent: 'center',
           alignItems: 'center',
           width: 50,

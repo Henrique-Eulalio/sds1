@@ -14,7 +14,9 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = 'http://192.168.15.19:8080';
+const BASE_URL = 'https://sds1-henriqueeulalio.herokuapp.com';
+//http://192.168.15.19:8080
+
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({
@@ -135,7 +137,7 @@ const pickerSelectStyles = StyleSheet.create(
           paddingHorizontal: 20,
           backgroundColor: '#FFF',
           borderRadius: 10,
-          color: '#ED7947',
+          color: '#fc4a9e',
           paddingRight: 30,
           fontFamily: "Play_700Bold",
           height: 50
@@ -146,7 +148,7 @@ const pickerSelectStyles = StyleSheet.create(
           paddingHorizontal: 20,
           backgroundColor: '#FFF',
           borderRadius: 10,
-          color: '#ED7947',
+          color: '#fc4a9e',
           paddingRight: 30,
           fontFamily: "Play_700Bold",
           height: 50
@@ -175,7 +177,7 @@ const styles = StyleSheet.create(
           height: 50,
           backgroundColor: '#FFF',
           borderRadius: 10,
-          color: '#ED7947',
+          color: '#fc4a9e',
           fontFamily: "Play_700Bold",
           fontSize: 16,
           paddingLeft: 20,

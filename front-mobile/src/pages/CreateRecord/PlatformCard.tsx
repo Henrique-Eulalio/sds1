@@ -19,7 +19,7 @@ const PlatformCard = ({
 }: Props) => {
     const isActive = platform === activePlatform;
     const backgroundColor = isActive ? '#fad7c8' : '#FFF';
-    const textColor = isActive ? '#ED7947' : '#9E9E9E';
+    const textColor = isActive ? '#fc4a9e' : '#9E9E9E';
 
     return (
         <RectButton

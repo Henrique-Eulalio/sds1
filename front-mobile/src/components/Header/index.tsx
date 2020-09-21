@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     header: {
       paddingTop: 50,
       height: 90,
-      backgroundColor: '#37474F',
+      backgroundColor: '#272a3d',
       flexDirection: 'row',
       justifyContent: 'center'
     },
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       fontSize: 18,
       fontFamily: "Play_700Bold",
-      color: '#ED7947',
+      color: '#fc4a9e',
       marginLeft: 10,
       marginRight: 5,
     },
